@@ -19,7 +19,7 @@ TARGET: Your users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-NOTES: 
+NOTE: 
 Just do the best that you could do in the limited of time, and let see how well you could implement HTML, CSS and Basic JS to build a solution
 
 ## Where to find everything
