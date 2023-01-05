@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter",sans-serif;
+}
+/*Moved from the index.html*/ 
+.attribution { 
+    font-size: 11px; text-align: center;
+ }
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
+/*untill here*/ 
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+Ul {
+    list-style-type: none;
+}
+
+p {
+    line-height: 1.8;
+    color: hsl(236, 13%, 42%);
+  }
+
+html {
+    font-size: 15px;
+  }
+  
+body {
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 4rem;
+  }
+.kepala {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem;
+    background-color: brown;
+}
+
+.kepala nav #menu-close {
+    background: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 1.25rem;
+    top: 1.25rem;
+    z-index: 999999;
+
+}
+.kepala nav {
+    opacity: 0;
+    z-index: -999;
+    transition: all 0.3s ease-in-out;
+}
+
+.kepala nav.open {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 75vw;
+    background-color: white;
+    padding: 1.25rem;
+    opacity: 1;
+    z-index: 99999999999;
+}
+
+.kepala nav ul {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.kepala nav ul li{
+    margin: 1.5rem 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.kepala nav ul li:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.kepala .menu-button button {
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.txt {
+    display: flex;
+    float: right;
+    background-color: blueviolet;
+
+}
