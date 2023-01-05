@@ -68,3 +68,8 @@ Submit your solution on links below depend on your class (remember each class ha
 * Submission link for class [L1CC](https://forms.office.com/r/FL0AZjSCNi) (only open on 5/1/2023 from 9:30 - 13:00)
 
 **Have fun building!** 🚀
+
+## My Work
+-I add a css file that would allow me to change both appearence and format of the website
+
+-i could hvae been faster and make it better
